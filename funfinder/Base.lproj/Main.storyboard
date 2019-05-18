@@ -49,7 +49,7 @@
         <!--Add New Photo-->
         <scene sceneID="QOm-Lk-kMg">
             <objects>
-                <viewController id="aFz-Vx-ISH" sceneMemberID="viewController">
+                <viewController id="aFz-Vx-ISH" customClass="AddPhotoViewController" customModule="funfinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XQG-wq-zAO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -59,20 +59,29 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Camera"/>
+                                <connections>
+                                    <action selector="cameraTapped:" destination="aFz-Vx-ISH" eventType="touchUpInside" id="dNY-xg-bgQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7lR-XF-Sic">
                                 <rect key="frame" x="150" y="493" width="116" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Photo Library"/>
+                                <connections>
+                                    <action selector="photoLibraryTapped:" destination="aFz-Vx-ISH" eventType="touchUpInside" id="Fdi-Mo-qbQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JBc-yI-Cxo">
                                 <rect key="frame" x="294" y="495" width="66" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Albums"/>
+                                <connections>
+                                    <action selector="albumButtonTapped:" destination="aFz-Vx-ISH" eventType="touchUpInside" id="xmx-fY-4R7"/>
+                                </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="C48-Wl-TmJ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="C48-Wl-TmJ">
                                 <rect key="frame" x="42" y="78" width="318" height="266"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -96,6 +105,9 @@
                     <navigationItem key="navigationItem" title="Add New Photo" id="Zeh-kJ-YMq">
                         <barButtonItem key="backBarButtonItem" title="Back" id="fx6-Hx-uVQ"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="imageView" destination="C48-Wl-TmJ" id="zRg-CT-hon"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bXL-aU-IyO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
