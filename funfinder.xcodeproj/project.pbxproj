@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5AA1CED22909A5C002B148B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AA1CEC22909A5C002B148B /* AppDelegate.swift */; };
+		F5AA1CEF22909A5C002B148B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AA1CEE22909A5C002B148B /* ViewController.swift */; };
+		F5AA1CF222909A5C002B148B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5AA1CF022909A5C002B148B /* Main.storyboard */; };
+		F5AA1CF522909A5C002B148B /* funfinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F5AA1CF322909A5C002B148B /* funfinder.xcdatamodeld */; };
+		F5AA1CF722909A5D002B148B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5AA1CF622909A5D002B148B /* Assets.xcassets */; };
+		F5AA1CFA22909A5D002B148B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5AA1CF822909A5D002B148B /* LaunchScreen.storyboard */; };
+		F5AA1D0522909A5D002B148B /* funfinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AA1D0422909A5D002B148B /* funfinderTests.swift */; };
+		F5AA1D1022909A5D002B148B /* funfinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AA1D0F22909A5D002B148B /* funfinderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5AA1D0122909A5D002B148B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5AA1CE122909A5C002B148B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5AA1CE822909A5C002B148B;
+			remoteInfo = funfinder;
+		};
+		F5AA1D0C22909A5D002B148B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5AA1CE122909A5C002B148B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5AA1CE822909A5C002B148B;
+			remoteInfo = funfinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5AA1CE922909A5C002B148B /* funfinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = funfinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5AA1CEC22909A5C002B148B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5AA1CEE22909A5C002B148B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5AA1CF122909A5C002B148B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5AA1CF422909A5C002B148B /* funfinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = funfinder.xcdatamodel; sourceTree = "<group>"; };
+		F5AA1CF622909A5D002B148B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5AA1CF922909A5D002B148B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5AA1CFB22909A5D002B148B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5AA1D0022909A5D002B148B /* funfinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = funfinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5AA1D0422909A5D002B148B /* funfinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = funfinderTests.swift; sourceTree = "<group>"; };
+		F5AA1D0622909A5D002B148B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5AA1D0B22909A5D002B148B /* funfinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = funfinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5AA1D0F22909A5D002B148B /* funfinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = funfinderUITests.swift; sourceTree = "<group>"; };
+		F5AA1D1122909A5D002B148B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5AA1CE622909A5C002B148B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5AA1CFD22909A5D002B148B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5AA1D0822909A5D002B148B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5AA1CE022909A5C002B148B = {
+			isa = PBXGroup;
+			children = (
+				F5AA1CEB22909A5C002B148B /* funfinder */,
+				F5AA1D0322909A5D002B148B /* funfinderTests */,
+				F5AA1D0E22909A5D002B148B /* funfinderUITests */,
+				F5AA1CEA22909A5C002B148B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5AA1CEA22909A5C002B148B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5AA1CE922909A5C002B148B /* funfinder.app */,
+				F5AA1D0022909A5D002B148B /* funfinderTests.xctest */,
+				F5AA1D0B22909A5D002B148B /* funfinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5AA1CEB22909A5C002B148B /* funfinder */ = {
+			isa = PBXGroup;
+			children = (
+				F5AA1CEC22909A5C002B148B /* AppDelegate.swift */,
+				F5AA1CEE22909A5C002B148B /* ViewController.swift */,
+				F5AA1CF022909A5C002B148B /* Main.storyboard */,
+				F5AA1CF622909A5D002B148B /* Assets.xcassets */,
+				F5AA1CF822909A5D002B148B /* LaunchScreen.storyboard */,
+				F5AA1CFB22909A5D002B148B /* Info.plist */,
+				F5AA1CF322909A5C002B148B /* funfinder.xcdatamodeld */,
+			);
+			path = funfinder;
+			sourceTree = "<group>";
+		};
+		F5AA1D0322909A5D002B148B /* funfinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5AA1D0422909A5D002B148B /* funfinderTests.swift */,
+				F5AA1D0622909A5D002B148B /* Info.plist */,
+			);
+			path = funfinderTests;
+			sourceTree = "<group>";
+		};
+		F5AA1D0E22909A5D002B148B /* funfinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5AA1D0F22909A5D002B148B /* funfinderUITests.swift */,
+				F5AA1D1122909A5D002B148B /* Info.plist */,
+			);
+			path = funfinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5AA1CE822909A5C002B148B /* funfinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5AA1D1422909A5D002B148B /* Build configuration list for PBXNativeTarget "funfinder" */;
+			buildPhases = (
+				F5AA1CE522909A5C002B148B /* Sources */,
+				F5AA1CE622909A5C002B148B /* Frameworks */,
+				F5AA1CE722909A5C002B148B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = funfinder;
+			productName = funfinder;
+			productReference = F5AA1CE922909A5C002B148B /* funfinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5AA1CFF22909A5D002B148B /* funfinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5AA1D1722909A5D002B148B /* Build configuration list for PBXNativeTarget "funfinderTests" */;
+			buildPhases = (
+				F5AA1CFC22909A5D002B148B /* Sources */,
+				F5AA1CFD22909A5D002B148B /* Frameworks */,
+				F5AA1CFE22909A5D002B148B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5AA1D0222909A5D002B148B /* PBXTargetDependency */,
+			);
+			name = funfinderTests;
+			productName = funfinderTests;
+			productReference = F5AA1D0022909A5D002B148B /* funfinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5AA1D0A22909A5D002B148B /* funfinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5AA1D1A22909A5D002B148B /* Build configuration list for PBXNativeTarget "funfinderUITests" */;
+			buildPhases = (
+				F5AA1D0722909A5D002B148B /* Sources */,
+				F5AA1D0822909A5D002B148B /* Frameworks */,
+				F5AA1D0922909A5D002B148B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5AA1D0D22909A5D002B148B /* PBXTargetDependency */,
+			);
+			name = funfinderUITests;
+			productName = funfinderUITests;
+			productReference = F5AA1D0B22909A5D002B148B /* funfinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5AA1CE122909A5C002B148B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Zachary Howarth";
+				TargetAttributes = {
+					F5AA1CE822909A5C002B148B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					F5AA1CFF22909A5D002B148B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F5AA1CE822909A5C002B148B;
+					};
+					F5AA1D0A22909A5D002B148B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F5AA1CE822909A5C002B148B;
+					};
+				};
+			};
+			buildConfigurationList = F5AA1CE422909A5C002B148B /* Build configuration list for PBXProject "funfinder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5AA1CE022909A5C002B148B;
+			productRefGroup = F5AA1CEA22909A5C002B148B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5AA1CE822909A5C002B148B /* funfinder */,
+				F5AA1CFF22909A5D002B148B /* funfinderTests */,
+				F5AA1D0A22909A5D002B148B /* funfinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5AA1CE722909A5C002B148B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5AA1CFA22909A5D002B148B /* LaunchScreen.storyboard in Resources */,
+				F5AA1CF722909A5D002B148B /* Assets.xcassets in Resources */,
+				F5AA1CF222909A5C002B148B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5AA1CFE22909A5D002B148B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5AA1D0922909A5D002B148B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5AA1CE522909A5C002B148B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5AA1CF522909A5C002B148B /* funfinder.xcdatamodeld in Sources */,
+				F5AA1CEF22909A5C002B148B /* ViewController.swift in Sources */,
+				F5AA1CED22909A5C002B148B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5AA1CFC22909A5D002B148B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5AA1D0522909A5D002B148B /* funfinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5AA1D0722909A5D002B148B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5AA1D1022909A5D002B148B /* funfinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5AA1D0222909A5D002B148B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5AA1CE822909A5C002B148B /* funfinder */;
+			targetProxy = F5AA1D0122909A5D002B148B /* PBXContainerItemProxy */;
+		};
+		F5AA1D0D22909A5D002B148B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5AA1CE822909A5C002B148B /* funfinder */;
+			targetProxy = F5AA1D0C22909A5D002B148B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5AA1CF022909A5C002B148B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5AA1CF122909A5C002B148B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5AA1CF822909A5D002B148B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5AA1CF922909A5D002B148B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5AA1D1222909A5D002B148B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5AA1D1322909A5D002B148B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5AA1D1522909A5D002B148B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7H3V28KGF4;
+				INFOPLIST_FILE = funfinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.funfinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5AA1D1622909A5D002B148B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7H3V28KGF4;
+				INFOPLIST_FILE = funfinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.funfinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5AA1D1822909A5D002B148B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7H3V28KGF4;
+				INFOPLIST_FILE = funfinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.funfinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/funfinder.app/funfinder";
+			};
+			name = Debug;
+		};
+		F5AA1D1922909A5D002B148B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7H3V28KGF4;
+				INFOPLIST_FILE = funfinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.funfinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/funfinder.app/funfinder";
+			};
+			name = Release;
+		};
+		F5AA1D1B22909A5D002B148B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7H3V28KGF4;
+				INFOPLIST_FILE = funfinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.funfinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = funfinder;
+			};
+			name = Debug;
+		};
+		F5AA1D1C22909A5D002B148B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7H3V28KGF4;
+				INFOPLIST_FILE = funfinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.funfinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = funfinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5AA1CE422909A5C002B148B /* Build configuration list for PBXProject "funfinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5AA1D1222909A5D002B148B /* Debug */,
+				F5AA1D1322909A5D002B148B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5AA1D1422909A5D002B148B /* Build configuration list for PBXNativeTarget "funfinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5AA1D1522909A5D002B148B /* Debug */,
+				F5AA1D1622909A5D002B148B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5AA1D1722909A5D002B148B /* Build configuration list for PBXNativeTarget "funfinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5AA1D1822909A5D002B148B /* Debug */,
+				F5AA1D1922909A5D002B148B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5AA1D1A22909A5D002B148B /* Build configuration list for PBXNativeTarget "funfinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5AA1D1B22909A5D002B148B /* Debug */,
+				F5AA1D1C22909A5D002B148B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F5AA1CF322909A5C002B148B /* funfinder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F5AA1CF422909A5C002B148B /* funfinder.xcdatamodel */,
+			);
+			currentVersion = F5AA1CF422909A5C002B148B /* funfinder.xcdatamodel */;
+			path = funfinder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F5AA1CE122909A5C002B148B /* Project object */;
+}
