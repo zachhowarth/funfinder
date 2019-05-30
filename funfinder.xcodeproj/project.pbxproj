@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F597C5C822A07E6000470394 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F597C5C722A07E6000470394 /* PhotoDetailViewController.swift */; };
 		F5AA1CED22909A5C002B148B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AA1CEC22909A5C002B148B /* AppDelegate.swift */; };
 		F5AA1CF222909A5C002B148B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5AA1CF022909A5C002B148B /* Main.storyboard */; };
 		F5AA1CF522909A5C002B148B /* funfinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F5AA1CF322909A5C002B148B /* funfinder.xcdatamodeld */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F597C5C722A07E6000470394 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
 		F5AA1CE922909A5C002B148B /* funfinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = funfinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5AA1CEC22909A5C002B148B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5AA1CF122909A5C002B148B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		F5AA1CEB22909A5C002B148B /* funfinder */ = {
 			isa = PBXGroup;
 			children = (
+				F597C5C722A07E6000470394 /* PhotoDetailViewController.swift */,
 				F5DECD8B229190CA00D64B16 /* PhotoTableViewController.swift */,
 				F5AA1CEC22909A5C002B148B /* AppDelegate.swift */,
 				F5AA1D1D2290A527002B148B /* AddPhotoViewController.swift */,
@@ -265,6 +268,7 @@
 				F5AA1CF522909A5C002B148B /* funfinder.xcdatamodeld in Sources */,
 				F5AA1D1E2290A527002B148B /* AddPhotoViewController.swift in Sources */,
 				F5DECD8C229190CA00D64B16 /* PhotoTableViewController.swift in Sources */,
+				F597C5C822A07E6000470394 /* PhotoDetailViewController.swift in Sources */,
 				F5AA1CED22909A5C002B148B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -37,10 +37,13 @@
                         <barButtonItem key="backBarButtonItem" title="Back" id="DKS-6R-jkW"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="sgA-o0-ZQ5">
                             <connections>
-                                <segue destination="aFz-Vx-ISH" kind="show" id="fue-jS-jJC"/>
+                                <segue destination="aFz-Vx-ISH" kind="show" identifier="" id="fue-jS-jJC"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <segue destination="vRh-GR-JB1" kind="show" identifier="moveToDetail" id="RP9-Q8-1h2"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rgg-78-WTk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -116,6 +119,30 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bXL-aU-IyO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1700.0000000000002" y="71.739130434782609"/>
+        </scene>
+        <!--Photo Detail View Controller-->
+        <scene sceneID="OTw-pK-Rd8">
+            <objects>
+                <viewController id="vRh-GR-JB1" customClass="PhotoDetailViewController" customModule="funfinder" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GKd-6L-juJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WjP-4V-XBi">
+                                <rect key="frame" x="87" y="384" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="AFa-Mj-NxB"/>
+                    </view>
+                    <connections>
+                        <outlet property="newPhoto" destination="WjP-4V-XBi" id="Irm-S9-OTk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bF6-KT-GnZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2480" y="77"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="frq-Un-bhS">
