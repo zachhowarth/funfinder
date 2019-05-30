@@ -15,6 +15,7 @@
 		F5AA1D0522909A5D002B148B /* funfinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AA1D0422909A5D002B148B /* funfinderTests.swift */; };
 		F5AA1D1022909A5D002B148B /* funfinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AA1D0F22909A5D002B148B /* funfinderUITests.swift */; };
 		F5AA1D1E2290A527002B148B /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AA1D1D2290A527002B148B /* AddPhotoViewController.swift */; };
+		F5DECD8C229190CA00D64B16 /* PhotoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DECD8B229190CA00D64B16 /* PhotoTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F5AA1D0F22909A5D002B148B /* funfinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = funfinderUITests.swift; sourceTree = "<group>"; };
 		F5AA1D1122909A5D002B148B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5AA1D1D2290A527002B148B /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
+		F5DECD8B229190CA00D64B16 /* PhotoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		F5AA1CEB22909A5C002B148B /* funfinder */ = {
 			isa = PBXGroup;
 			children = (
+				F5DECD8B229190CA00D64B16 /* PhotoTableViewController.swift */,
 				F5AA1CEC22909A5C002B148B /* AppDelegate.swift */,
 				F5AA1D1D2290A527002B148B /* AddPhotoViewController.swift */,
 				F5AA1CF022909A5C002B148B /* Main.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				F5AA1CF522909A5C002B148B /* funfinder.xcdatamodeld in Sources */,
 				F5AA1D1E2290A527002B148B /* AddPhotoViewController.swift in Sources */,
+				F5DECD8C229190CA00D64B16 /* PhotoTableViewController.swift in Sources */,
 				F5AA1CED22909A5C002B148B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
