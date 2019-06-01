@@ -24,13 +24,13 @@ class PhotoTableViewController: UITableViewController {
     // this function will retrieve all our photos from CD
     func getPhotos() {
     
-    if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
     
-    if let coreDataPhotos = try? context.fetch(Photos.fetchRequest()) as? [Photos] {
-    photos = coreDataPhotos
-    tableView.reloadData()
-    }
-    }
+            if let coreDataPhotos = try? context.fetch(Photos.fetchRequest()) as? [Photos] {
+                photos = coreDataPhotos
+                tableView.reloadData()
+            }
+        }
     
     }
     
@@ -67,32 +67,31 @@ class PhotoTableViewController: UITableViewController {
                 
             }
         }
-
-    /*
-     // Override to support conditional editing of the table view.
-     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-     // Return false if you do not want the specified item to be editable.
+        }
+    }
+    
+    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
      return true
      }
-     */
     
-    /*
+    
+    
      // Override to support editing the table view.
-     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
      if editingStyle == .delete {
-     // Delete the row from the data source
-     tableView.deleteRows(at: [indexPath], with: .fade)
-     } else if editingStyle == .insert {
+        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+            let photoToDelete = photos[indexPath.row]
+            context.delete(photoToDelete)
+            (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
+            getPhotos()
+        }
+        }
      // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
      }
-     }
-     */
-    
-    /*
+/*
      // Override to support rearranging the table view.
      override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
      }
-     */
     
     /*
      // Override to support conditional rearranging of the table view.
@@ -110,7 +109,6 @@ class PhotoTableViewController: UITableViewController {
      // Pass the selected object to the new view controller.
      }
      */
-    
+ */
 }
-}
-}
+

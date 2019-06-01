@@ -66,9 +66,9 @@ class AddPhotoViewController: UIViewController, UIImagePickerControllerDelegate,
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         //update photo
         
-        if let selectedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
-            photoToSave.image = selectedImage
-            
+        if let selectedImage =  info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
+            let fixedImaged = ImageUtilities.fixImageOrientation(imageSource: selectedImage)
+            photoToSave.image = fixedImaged
         }
         imagePicker.dismiss(animated: true, completion: nil )
 
